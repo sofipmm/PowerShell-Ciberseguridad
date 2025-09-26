@@ -1,4 +1,4 @@
-#sofia lizbeth
+# Editado por Sofia Lizbeth Perez Muñiz el 26/09/2025
 function Validar-Archivo {
     param ([string]$Ruta)
     try {
@@ -40,3 +40,4 @@ $resultado2
  
 
 Write-Host "Reporte generado en: $rutaReporte"
+
