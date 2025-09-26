@@ -1,3 +1,4 @@
+#sofia lizbeth
 function Validar-Archivo {
     param ([string]$Ruta)
     try {
@@ -37,4 +38,5 @@ $resultado1
 $resultado2
 "@ | Out-File -FilePath $rutaReporte -Encoding UTF8
  
+
 Write-Host "Reporte generado en: $rutaReporte"
